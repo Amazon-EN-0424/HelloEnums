@@ -1,10 +1,10 @@
-package com.ironhack;
+package com.ironhack.teas;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ironhack.TeaType.GREEN;
-import static com.ironhack.TeaType.OOLONG;
+import static com.ironhack.teas.TeaType.GREEN;
+import static com.ironhack.teas.TeaType.OOLONG;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +27,9 @@ public class Main {
                 System.out.println(pickedTea);
             }
         }
+
+
+        System.out.println( (Math.random() * 8) + 1);
     }
 
     private static Tea pickRandomTea(ArrayList<Tea> teaList) {

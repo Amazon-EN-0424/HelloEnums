@@ -1,4 +1,4 @@
-package com.ironhack;
+package com.ironhack.teas;
 
 public class Tea {
     private String name;
